@@ -19,6 +19,7 @@ const EducationCard = ({
   return (
     <div className=" cursor-pointer p-6 w-full gap-x-5 border border-[#4f4f4f80] hover:border-zinc-500 rounded-2xl my-6 transition-all duration-300 hover:scale-105">
       <Image
+        loading="eager"
         src={instituteImg}
         alt=""
         width={40}

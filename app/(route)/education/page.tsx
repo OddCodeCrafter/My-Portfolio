@@ -39,7 +39,7 @@ const Education = () => {
           <div className="h-full w-[2px] bg-[#4f4f4f80]"></div>
           <FontAwesomeIcon
             icon={faDiamond}
-            className="absolute w-10 h-10 py-3 text-zinc-400 rounded-full bg-black z-10 text-center"
+            className="absolute w-8 h-8 py-3 text-zinc-400 rounded-full bg-black z-10 text-center"
           />
         </div>
         <div className="col-span-5 w-full h-full"></div>
