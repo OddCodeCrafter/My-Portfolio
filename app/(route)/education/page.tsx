@@ -19,8 +19,7 @@ const Education = () => {
         <div className="md:col-span-5 col-span-full md:mx-0 mx-auto w-full h-full ">
           <EducationCard
             instituteImg="/tuf.png"
-            degreeName="BS Computer Science
-"
+            degreeName="BS Computer Science"
             instituteName="The University of Faisalabad"
             courses={[
               "C++",
@@ -39,7 +38,7 @@ const Education = () => {
           <div className="h-full w-[2px] bg-[#4f4f4f80]"></div>
           <FontAwesomeIcon
             icon={faDiamond}
-            className="absolute w-8 h-8 py-3 text-zinc-400 rounded-full bg-black z-10 text-center"
+            className="absolute w-6 h-6 py-3 text-zinc-400 rounded-full bg-black z-10 text-center"
           />
         </div>
         <div className="col-span-5 w-full h-full"></div>

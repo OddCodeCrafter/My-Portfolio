@@ -1,9 +1,11 @@
+import { LucideIcon } from "lucide-react";
 import Image from "next/image";
 
 interface ExperienceProps {
   companyName: string;
   companyImg: string;
   empTypes: string[];
+  icons: LucideIcon[];
   duration: string;
   description: string;
   stacks: string[];
@@ -12,10 +14,14 @@ const ExperienceCard = ({
   companyName,
   companyImg,
   empTypes,
+  icons,
   stacks,
   duration,
   description,
 }: ExperienceProps) => {
+  const types = icons.map((Icon, index) => [Icon, empTypes[index]]);
+  console.log(types);
+
   return (
     <div className="flex cursor-pointer p-6 w-full gap-x-5 border border-[#4f4f4f80] hover:border-zinc-500 rounded-2xl my-6 transition-all duration-300 hover:scale-105">
       <Image
@@ -29,13 +35,14 @@ const ExperienceCard = ({
       <div>
         <h3 className="text-xl font-semibold">{companyName}</h3>
         <div className="flex gap-x-3 flex-wrap my-2">
-          {empTypes.map((emp, index) => {
+          {types.map(([Icon, employementTypes], index) => {
             return (
               <h5
                 key={index}
-                className="transition-all font-light my-1 inline-block border border-[#63636380] rounded-full text-zinc-300 py-1 px-3 text-xs hover:bg-zinc-900 cursor-pointer hover:scale-105"
+                className="flex transition-all font-light my-1 items-center border border-[#63636380] rounded-full text-zinc-300 py-1 px-3 text-xs hover:bg-zinc-900 cursor-pointer hover:scale-105"
               >
-                {emp}
+                <Icon className="mr-2 w-3 h-3" />
+                {employementTypes as string}
               </h5>
             );
           })}
