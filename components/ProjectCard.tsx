@@ -1,5 +1,6 @@
-import { Link } from "lucide-react";
+import { Link2 } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 interface ProjectProps {
   projectImg: string;
@@ -29,7 +30,7 @@ const ProjectCard = ({
           href={projectLink}
           className="transition-all duration-300 p-2 border border-zinc-500 rounded-full cursor-pointer hover:bg-zinc-900 hover:scale-110"
         >
-          <Link className="w-3 h-3" />
+          <Link2 className="w-3 h-3" />
         </a>
       </div>
       <div className="h-[1px] bg-[#63636380] flex-1 my-2"></div>

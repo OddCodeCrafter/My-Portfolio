@@ -2,6 +2,7 @@ interface SkillCardProps {
   name: string;
   imgUrl: string;
 }
+
 const SkillCard = ({ name, imgUrl }: SkillCardProps) => {
   return (
     <div

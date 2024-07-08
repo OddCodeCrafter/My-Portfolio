@@ -3,7 +3,7 @@ import SkillCard from "@/components/SkillCard";
 const Skills = () => {
   return (
     <div className="lg:px-36 md:px-6 px-4 mt-16">
-      <h1 className="text-7xl text-center font-bold">Skills</h1>
+      <h1 className="sm:text-7xl text-6xl text-center font-bold">Skills</h1>
       {/* <input
         type="text"
         className="mt-6 pl-5 w-full rounded-full md:py-3 py-2 bg-black border transition-all duration-500 border-[#4f4f4f80] placeholder:text-[#bcbcbc80] placeholder:text-[18px] focus:bg-zinc-900"
@@ -45,7 +45,7 @@ const Skills = () => {
           </div>
           <div className="flex gap-5 mt-4 md:flex-nowrap flex-wrap">
             <SkillCard name="React" imgUrl="react.svg" />
-            <SkillCard name="Next Js" imgUrl="Nextjs.svg" />
+            <SkillCard name="Next Js" imgUrl="next.svg" />
           </div>
         </div>
       </div>

@@ -23,18 +23,24 @@ const Navbar = () => {
 
   return (
     <div className="md:static relative flex justify-between items-center lg:px-36 md:px-8 sm:px-4 px-2 text-gray-200 border-b-[1px] border-b-[#1e1e1e] md:py-0 py-3">
-      <Link className="flex font-bold text-xl items-center px-3" href="/">
+      <Link
+        className="flex font-bold md:text-xl text-lg items-center px-3"
+        href="/"
+      >
         <CodeXml className="mr-2" />
         Muhammad Sualeh
       </Link>
       <div
-        className={`nav md:static absolute md:bg-none bg-black flex md:flex-row flex-col gap-5 md:right-0 right-1 md:text-sm text-base md:w-fit w-full transition-all duration-300 z-10 ${
+        className={`nav md:static absolute md:bg-none bg-black flex md:flex-row flex-col gap-5 md:right-0 right-1 md:text-sm text-base md:w-fit w-full transition-all duration-200 z-10 ${
           !isOpen ? "-top-80" : "top-14"
         } `}
       >
         <Link
           className="flex items-center md:px-4 px-6 py-4 hover:bg-zinc-800 transition-all duration-300"
           href="/projects"
+          onClick={() => {
+            toggleMenu();
+          }}
         >
           <Box className="w-5 h-5" />
           <p className="md:ml-2 ml-4 md:hidden lg:block block">Projects</p>
@@ -42,6 +48,9 @@ const Navbar = () => {
         <Link
           className="flex items-center md:px-4 px-6 py-4 hover:bg-zinc-800  transition-all duration-300"
           href="/skills"
+          onClick={() => {
+            toggleMenu();
+          }}
         >
           <Boxes className="w-5 h-5" />
           <p className="md:ml-2 ml-4 md:hidden lg:block block">Skills</p>
@@ -49,6 +58,9 @@ const Navbar = () => {
         <Link
           className="flex items-center md:px-4 px-6 py-4 hover:bg-zinc-800 transition-all duration-300"
           href="/experience"
+          onClick={() => {
+            toggleMenu();
+          }}
         >
           <Briefcase className="w-5 h-5" />
           <p className="md:ml-2 ml-4 md:hidden lg:block block">Experience</p>
@@ -56,6 +68,9 @@ const Navbar = () => {
         <Link
           className="flex items-center md:px-4 px-6 py-4 hover:bg-zinc-800 transition-all duration-300"
           href="/education"
+          onClick={() => {
+            toggleMenu();
+          }}
         >
           <GraduationCap className="w-5 h-5" />
           <p className="md:ml-2 ml-4 md:hidden lg:block block">Education</p>
