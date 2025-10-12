@@ -29,7 +29,7 @@ const Projects = () => {
           <ProjectCard
             projectImg="/shopify.svg"
             projectName="Gadgenie"
-            projectLink="https://gadgenie-online.myshopify.com/"
+            // projectLink="https://gadgenie-online.myshopify.com/"
             projectStack="Shopify Website Application"
             description={`An online store that offers a wide range of gadgets and accessories
           that solves everyday problems and in minimum of time too. Password: abcd`}
