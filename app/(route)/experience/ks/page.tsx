@@ -63,9 +63,13 @@ const KS = () => {
       <div className=" text-zinc-300 py-6 px-2 space-x-2 border-y-[1px] border-zinc-800 leading-8">
         <h4>
           Developed Multiple Web Application in Full Stack (Front-End and
-          Back-End). Learned MERN Stack to get Full Stack Knowledge, it&apos;s
-          working and skills. Atteded Soft Skill seassions to get knowledge
-          software companies working environment
+          Back-End). Learned MERN (MongoDB, Express, React and Node) Stack to
+          get Full Stack Knowledge, it&apos;s working and skills. Also Atteded
+          Soft Skill seassions to get knowledge of software companies working
+          environment I worked on a small e-commerce website as part of a team
+          project during my studies. This experience taught me about
+          collaboration, version control, and the challenges of integrating
+          payment gateways.
         </h4>
       </div>
     </div>

@@ -40,6 +40,16 @@ const tuf = () => {
           </p>
         </div>
       </div>
+      <div className=" text-zinc-300 py-6 px-2 space-x-2 border-y-[1px] border-zinc-800 leading-8">
+        <h4>
+          <i>
+            <strong>Courses:</strong>
+          </i>{" "}
+          Web Design and Development, Wordpress Development, Database Management
+          System, Human Computer Interaction, Graphic designing, Object Oriented
+          Programming, Data Structure and Algorithm
+        </h4>
+      </div>
       {/* <div className=" text-zinc-300 py-6 px-2 space-x-2 border-y-[1px] border-zinc-800 leading-8">
         <h4>Developed Multiple Websites from scratch</h4>
       </div> */}

@@ -21,6 +21,7 @@ const Skills = () => {
           <div className="flex gap-5 mt-4 flex-wrap">
             <SkillCard name="JavaScript" imgUrl="javascript.svg" />
             <SkillCard name="TypeScript" imgUrl="typescript.svg" />
+            <SkillCard name="Shopify Liquid" imgUrl="shopify.svg" />
           </div>
         </div>
         <div>
@@ -45,6 +46,15 @@ const Skills = () => {
           </div>
           <div className="flex gap-5 mt-4 md:flex-nowrap flex-wrap">
             <SkillCard name="React" imgUrl="react.svg" />
+          </div>
+        </div>
+        <div>
+          <div className="flex items-center">
+            <div className="bg-[#343434] h-[1px] w-[20px] "></div>
+            <h4 className="flex text-base text-[#4e4e4e] mx-2 ">Frameworks</h4>
+            <div className="flex-1 bg-[#343434] h-[1px]"></div>
+          </div>
+          <div className="flex gap-5 mt-4 md:flex-nowrap flex-wrap">
             <SkillCard name="Next Js" imgUrl="next.svg" />
           </div>
         </div>

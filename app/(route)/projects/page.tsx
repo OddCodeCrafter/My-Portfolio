@@ -16,14 +16,25 @@ const Projects = () => {
           <ProjectCard
             projectImg="/next-js.svg"
             projectName="LMS"
-            projectLink="https://github.com/UsmanDev09/LMS"
+            // projectLink="https://github.com/UsmanDev09/LMS"
             projectStack="Web Application"
-            description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non
-                          dolores voluptatibus vitae praesentium aperiam, iure laboriosam
-                          repellendus sunt explicabo pariatur totam enim, nihil animi quisquam.
-                          Sit vero quod laborum!"
+            description="Developed LMS Application for two different categrories, Student and Instructor. 
+            Student's side, user can can buy, search, browse, watch vidoes. On Instructor side, the user
+            can create, upload, modify and delete courses, chapters and videos"
             projectDate="March 2024"
             skills={["typescript.svg", "react.svg", "next.svg"]}
+          />
+        </Link>
+        <Link href="projects/shopify" legacyBehavior>
+          <ProjectCard
+            projectImg="/shopify.svg"
+            projectName="Gadgenie"
+            projectLink="https://gadgenie-online.myshopify.com/"
+            projectStack="Shopify Website Application"
+            description={`An online store that offers a wide range of gadgets and accessories
+          that solves everyday problems and in minimum of time too. Password: abcd`}
+            projectDate="April 2025"
+            skills={["tailwind-css-2.svg", "html5.svg", "shopify.svg"]}
           />
         </Link>
       </div>

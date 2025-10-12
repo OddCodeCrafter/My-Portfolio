@@ -7,7 +7,7 @@ interface ExperienceProps {
   empTypes: string[];
   icons: LucideIcon[];
   duration: string;
-  description: string;
+  description?: string;
   stacks: string[];
 }
 const ExperienceCard = ({

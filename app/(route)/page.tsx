@@ -3,7 +3,6 @@ import * as React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAt } from "@fortawesome/free-solid-svg-icons";
 import Autoplay from "embla-carousel-autoplay";
-// import useEmblaCarousel from "embla-carousel-react";
 
 import {
   faSquareFacebook,
@@ -29,29 +28,30 @@ export default function Home() {
     <div className="flex md:justify-between justify-around items-center md:h-[90vh] h-[100vh] lg:px-36 md:px-6 px-4 md:gap-x-5 gap-x-0 md:flex-row flex-col md:mt-0 mt-10">
       <div className="md:w-[70%] md:text-start text-center md:mt-0 mt-5">
         <h2 className="md:text-6xl text-5xl font-bold">Muhammad Sualeh</h2>
-        <p className="my-2 text-[#d1d1d1] md:text-xl text-lg font-light">
-          A dedicated and industrious developer, who is eager to advance his
-          career by contributing to innovative projects and dynamic teams. With
-          a strong work ethic and a passion for cutting-edge technologies, I aim
-          to deliver meaningful solutions and drive success within any tech
-          stack.
+        <p className="my-2 text-zinc-300 md:text-xl text-lg font-light">
+          A highly skilled and accomplished developer with a proven track record
+          of success across multiple companies, known for driving innovative
+          solutions and collaborating with dynamic teams. With a deep
+          understanding of cutting-edge technologies, I am committed to
+          delivering impactful results and contributing to the success of any
+          project.
         </p>
         <div className="flex text-gray-300 gap-x-3 text-xl items-center md:justify-start justify-center">
           <a href="mailto:muhammadslh297@gmail.com">
             <FontAwesomeIcon icon={faAt} />
           </a>
-          <a href="https://github.com/OddCodeCrafter">
+          <a href="https://github.com/blur10">
             <FontAwesomeIcon icon={faGithub} />
           </a>
           <a href="https://x.com/M_Sualeh10">
             <FontAwesomeIcon icon={faXTwitter} />
           </a>
-          <a href="https://www.linkedin.com/in/muhammad-sualeh/">
+          <a href="https://www.linkedin.com/in/muhammadsualeh/">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
-          <a href="https://web.facebook.com/sualeh10">
+          {/* <a href="https://web.facebook.com/sualeh10">
             <FontAwesomeIcon icon={faSquareFacebook} />
-          </a>
+          </a> */}
           {/*<a><FontAwesomeIcon icon={faStackOverflow} /></a> */}
         </div>
       </div>
@@ -99,6 +99,15 @@ export default function Home() {
                 <Card>
                   <CardContent className="flex aspect-square items-center justify-center  bg-black">
                     <img className="w-40" src="react.svg" alt="" />
+                  </CardContent>
+                </Card>
+              </div>
+            </CarouselItem>
+            <CarouselItem>
+              <div className="">
+                <Card>
+                  <CardContent className="flex aspect-square items-center justify-center  bg-black">
+                    <img className="w-40" src="shopify.svg" alt="" />
                   </CardContent>
                 </Card>
               </div>

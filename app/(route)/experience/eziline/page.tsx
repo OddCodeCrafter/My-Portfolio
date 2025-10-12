@@ -41,7 +41,18 @@ const Eziline = () => {
         </div>
       </div>
       <div className=" text-zinc-300 py-6 px-2 space-x-2 border-y-[1px] border-zinc-800 leading-8">
-        <h4>Developed Multiple Websites from scratch</h4>
+        <h4>
+          Developed Multiple Websites from scratch before getting into
+          professional career to get my hands set on coding My first project was
+          a static website for a local business using HTML, and CSS. This
+          project helped me understand the basics of web development and the
+          importance of responsive design. Another project involved creating a
+          JavaScript website to showcase my skills and projects. I used modern
+          JS functionalities to build a Dynamic working site. These projects not
+          only enhanced my technical skills but also boosted my confidence in
+          building functional and attractive websites. They laid a foundation
+          for my professional career in web development.
+        </h4>
       </div>
     </div>
   );

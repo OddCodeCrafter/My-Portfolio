@@ -22,7 +22,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="md:static relative flex justify-between items-center lg:px-36 md:px-8 sm:px-4 px-2 text-gray-200 border-b-[1px] border-b-[#1e1e1e] md:py-0 py-3">
+    <div className="md:static relative flex justify-between items-center lg:px-32 md:px-8 sm:px-4 px-2 text-gray-200 border-b-[1px] border-b-[#1e1e1e] md:py-0 py-3">
       <Link
         className="flex font-bold md:text-xl text-lg items-center px-3"
         href="/"

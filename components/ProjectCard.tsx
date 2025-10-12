@@ -5,7 +5,6 @@ import Link from "next/link";
 interface ProjectProps {
   projectImg: string;
   projectName: string;
-  projectLink: string;
   projectStack: string;
   description?: string;
   projectDate: string;
@@ -15,7 +14,6 @@ interface ProjectProps {
 const ProjectCard = ({
   projectImg,
   projectName,
-  projectLink,
   projectStack,
   projectDate,
   description,
@@ -26,16 +24,10 @@ const ProjectCard = ({
       <Image src={projectImg} alt="" width={45} height={45} className="my-3" />
       <div className="flex justify-between items-center">
         <h4 className="text-2xl font-semibold">{projectName}</h4>
-        <a
-          href={projectLink}
-          className="transition-all duration-300 p-2 border border-zinc-500 rounded-full cursor-pointer hover:bg-zinc-900 hover:scale-110"
-        >
-          <Link2 className="w-3 h-3" />
-        </a>
       </div>
       <div className="h-[1px] bg-[#63636380] flex-1 my-2"></div>
       <h5 className="text-zinc-300 italic font-light">{projectStack}</h5>
-      <h5 className="text-zinc-300 my-5 overflow-y-hidden h-[125px]">
+      <h5 className="text-zinc-300 my-5 overflow-y-hidden h-[123px]">
         {description}
       </h5>
       <p className="transition-all inline-block border border-[#63636380] rounded-full text-zinc-300 py-1 px-3 text-xs hover:bg-zinc-900 cursor-pointer hover:scale-105">

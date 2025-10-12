@@ -52,7 +52,13 @@ const Zigron = () => {
       </div>
       <div className=" text-zinc-300 py-6 px-2 space-x-2 border-y-[1px] border-zinc-800 leading-8">
         <h4>
-          Developed Web Applications for International Clients in Next.js.
+          Developed, modified, integrate and test Website related code and Web
+          application interfaces. Conducted tests and analyzed data to monitor
+          quality, security, user interface experiences and to identify areas
+          for improvement. Developed and implemented procedures for ongoing Web
+          site revision. Monitored and maintained Web site functionality.
+          Participated in Web site architecture and design in collaboration with
+          clients
         </h4>
       </div>
     </div>

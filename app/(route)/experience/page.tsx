@@ -32,8 +32,8 @@ const Experience = () => {
               companyImg="no-img.svg"
               companyName="Zigron"
               stacks={["typescript.svg", "tailwind-css-2.svg", "next.svg"]}
-              duration="March 2024 - June 2024"
-              description="Developed Web Application for International Clients in Next.js."
+              duration="March 2024 - January 2025"
+              description="Developed Web Application for International Clients in a React's framework Next.js."
             />
           </a>
         </div>
@@ -74,7 +74,7 @@ const Experience = () => {
                 "postgresql.svg",
               ]}
               duration="June 2023 - September 2023"
-              description="Creating awesome tools for developers."
+              // description="Creating awesome tools for developers."
             />
           </a>
         </div>
@@ -94,7 +94,7 @@ const Experience = () => {
               companyName="Eziline Software House"
               stacks={["html5.svg", "css3.svg", "javascript.svg"]}
               duration="November 2022 - December 2024"
-              description="Creating awesome tools for developers."
+              // description="Creating awesome tools for developers."
             />
           </a>
         </div>
