@@ -25,6 +25,19 @@ const Projects = () => {
             skills={["typescript.svg", "react.svg", "next.svg"]}
           />
         </Link>
+        <Link href="projects/datalogy" legacyBehavior>
+          <ProjectCard
+            projectImg="/wordpress.png"
+            projectName="Datalogy"
+            // projectLink="https://github.com/UsmanDev09/LMS"
+            projectStack="Wordpress Website Application"
+            description="Dataology is a Wordpress website and An Australian based company, 
+            developed to deliver solutions in different department,
+            tailored for thier clients need."
+            projectDate="October 2024"
+            skills={["html5.svg", "css3.svg", "wordpress.png"]}
+          />
+        </Link>
         <Link href="projects/shopify" legacyBehavior>
           <ProjectCard
             projectImg="/shopify.svg"
